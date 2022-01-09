@@ -53,7 +53,7 @@ const questions = [
     type: 'input',
     name: 'credits',
     message:
-      'Please provide collaborators, if any, with links to their GitHub profiles.',
+      'Provide collaborators, if any, with links to their GitHub profiles.',
   },
   {
     type: 'checkbox',
@@ -66,8 +66,6 @@ const questions = [
       'The Hippocratic License 2.1',
       'IBM Public License Version 1.0',
       'Mozilla Public License 2.0',
-      'Open Database License (ODbL)',
-      'SIL Open Font License 1.1',
     ],
   },
   {
@@ -117,7 +115,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-  fs.writeFile('README.md', data, (err) => {
+  fs.writeFile(`README.md`, data, (err) => {
     if (err) throw err;
 
     console.log('The README.md is now created!');
