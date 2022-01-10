@@ -42,8 +42,9 @@ This project requires Node.js and NPM 'Inquirer' to be installed
 
 ## Built With
 - VsCode
-- Node.js
 - JavaScript
+- Node.js
+- npm 'Inquirer'
 
 ## License
 License by Apache 2.0
