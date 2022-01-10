@@ -40,6 +40,11 @@ THEN I am taken to the corresponding section of the README
 ## Installation
 This project requires Node.js and NPM 'Inquirer' to be installed
 
+## Built With
+- VsCode
+- Node.js
+- JavaScript
+
 ## License
 License by Apache 2.0
 
